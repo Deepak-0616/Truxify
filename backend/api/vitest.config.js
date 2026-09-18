@@ -44,6 +44,7 @@ export default defineConfig({
     environment: 'node',
     globals: true,
     testTimeout: 15000,
+    passWithNoTests: true,
     include: ['test/**/*.test.js'],
     setupFiles: ['test/setup.js'],
     coverage: {
